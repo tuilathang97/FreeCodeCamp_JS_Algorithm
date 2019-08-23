@@ -1,0 +1,18 @@
+function telephoneCheck(str) {
+  // Good luck!
+  
+  let reg = /(1\s|1)?(\(\d{3}\)|d{3})(-|\s)?\d{3}(-|\s)?\d{4}$/
+  
+  /*
+  * (1\s|1)? Match betweern 1\s and 1 at the beginning of string : 1space (1 ) and 1
+  * (\(\d{3}\)|d{3}) Match (3-digits) or 3-degit : (555) / 555
+  * (-|\s)? Match between - and \s : hypen(-) and space( )
+  * \d{4}$ Match 4-digits atthe end of string
+  */
+  
+  return true;
+}
+
+telephoneCheck("10 (757) 622-7382") //true
+
+telephoneCheck("1 (555) 555-5555") //true
