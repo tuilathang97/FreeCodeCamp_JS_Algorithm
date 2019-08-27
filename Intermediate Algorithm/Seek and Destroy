@@ -1,0 +1,21 @@
+function destroyer(arr,...des) {
+  // Remove all the values
+  // des.forEach( d => {
+
+  //   arr.forEach(el => {
+      
+  //     if( el === d){
+  //       arr.splice(arr.indexOf(el),1);
+  //     }
+      
+  //   });
+
+    
+  // });
+
+  // return arr;
+
+  return arr.filter( el => !des.includes(el));
+}
+
+destroyer([3, 5, 1, 2, 2], 2, 3, 5);
