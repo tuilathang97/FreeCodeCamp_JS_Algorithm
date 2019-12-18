@@ -1,2 +1,2 @@
-# JavaScriptFCC
-JavaScript Algorithms and Data Structure Projects
+# Javascript Exercise on Free Code Camp course
+
